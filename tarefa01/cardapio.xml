@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
+<cardapio>
+    <restaurante id="r01">
+        <nome>Riffugio</nome>
+        <categoria>Regional</categoria>
+        <item tipo="Comida">
+            <prato>Lasanha de carne de sol</prato>
+            <descricao>Carne de sol desfiada, puxada na nata e com queijo coalho.</descricao>
+            <preco>58.90</preco>
+            <alergenos>Contém Lactose</alergenos>
+        </item>
+    </restaurante>
+
+    <restaurante id="r02">
+        <nome>Churrasquinho da Alcenir</nome>
+        <categoria>Petiscos</categoria>
+        <item tipo="Comida">
+            <prato>Espetinhos</prato>
+            <descricao>Espetinho de carne, calabresa, frango, coração, carne com bacon</descricao>
+            <preco>6.00</preco>
+            <alergenos>Contém Glúten</alergenos>
+        </item>
+    </restaurante>
+
+    <restaurante id="r03">
+        <nome>Café do Porto</nome>
+        <categoria>Cafeteria</categoria>
+        <item tipo="Bebida">
+            <prato>Cappuccino Especial</prato>
+            <descricao>Expresso, leite vaporizado, cacau e canela.</descricao>
+            <preco>12.50</preco>
+            </item>
+    </restaurante>
+
+    <restaurante id="r05">
+        <nome>Doce Estrela</nome>
+        <categoria>Confeitaria</categoria>
+        <item tipo="Sobremesa">
+            <prato>Pavê</prato>
+            <descricao>Sobremesa de chocolate branco e meio amargo, com biscoitos</descricao>
+            <preco>22.00</preco>
+            <alergenos>Contém Glúten e Lactose</alergenos>
+        </item>
+    </restaurante>
+</cardapio>

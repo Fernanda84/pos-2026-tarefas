@@ -1,0 +1,15 @@
+<!ELEMENT cardapio (restaurante+)>
+<!ELEMENT restaurante (nome, categoria, item+)>
+<!ATTLIST restaurante id ID #REQUIRED>
+
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+
+<!ELEMENT item (prato, descricao, preco, alergenos?)>
+<!ATTLIST item tipo (Comida | Bebida | Sobremesa) "Comida">
+
+<!ELEMENT prato (#PCDATA)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT preco (#PCDATA)>
+<!ATTLIST preco moeda CDATA "BRL">
+<!ELEMENT alergenos (#PCDATA)>
